@@ -1,13 +1,36 @@
-/*  your css code here. If applicable */
-*{
-	background-color:rgb(204,204,204);
-}
-.heading{
-	text-align:center;
+body{
+	background-color: rgb(204, 204, 204);
 }
 #div1{
-	margin:auto;
-	border:3px solid black;
-	border-radius:10px;
 	background-color:white;
+	border:2px solid black;
+	border-radius:5px;
+	margin-inline:20px;
+}
+h1{
+	text-align: center;
+}
+li{
+	list-style:none;
+	margin-top:5px;
+}
+a{
+	text-decoration:none;
+}
+.heading{
+	text-align: center;
+}
+#div2{
+	background-color:white;
+	width:700px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	
+}
+video{
+	background-color: rgb(255, 255, 255);
+}
+audio{
+	background-color: rgb(255, 255, 255)
 }
